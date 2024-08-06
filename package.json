@@ -9,12 +9,35 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@google-cloud/vision": "^4.3.0",
+    "@google/generative-ai": "^0.16.0",
+    "@mui/icons-material": "^5.16.6",
+    "@mui/material": "^5.16.6",
+    "@tensorflow-models/coco-ssd": "^2.2.3",
+    "@tensorflow/tfjs": "^4.20.0",
+    "@tensorflow/tfjs-node": "^4.20.0",
+    "canvas": "^2.11.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "firebase": "^10.12.5",
+    "next": "14.2.5",
+    "node-fetch": "^2.7.0",
     "react": "^18",
+    "react-camera-pro": "^1.4.0",
     "react-dom": "^18",
-    "next": "14.2.5"
+    "react-spinners": "^0.14.1",
+    "react-webcam": "^7.2.0",
+    "styled-components": "^5.3.11"
   },
   "devDependencies": {
     "eslint": "^8",
     "eslint-config-next": "14.2.5"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "firebase.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
